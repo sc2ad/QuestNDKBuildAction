@@ -7,6 +7,9 @@ inputs:
   workspace:
     description: 'Github workspace'
     required: true
+  libname:
+    description: 'The library prefix to use. Should be the QPM ID.'
+    required: true
 outputs:
   libname:
     description: "Name of the created .so (includes extension)"
